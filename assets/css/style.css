@@ -1,0 +1,21 @@
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px
+}
+
+body { 
+    padding-top: 70px; 
+    background-image: url("../images/background3.jpg");
+    background-size: 100%
+}
+/* 
+.bg-cstm {
+
+    background-color: rgba(0, 0, 0, 0.6);
+} */
+
+/* .shadow {
+  text-shadow: 2px 2px rgb(37, 37, 37);
+} */
