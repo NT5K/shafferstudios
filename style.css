@@ -13,11 +13,14 @@
 /* 3.0 Base CSS */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+ }
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+  background-color:rgb(230,230,250);
+ }
 
 h1,
 h2,
@@ -200,7 +203,7 @@ img {
   background-repeat: no-repeat; }
 
 .bg-white {
-  background-color: #ffffff !important; }
+  background-color: #800080 !important; }
 
 .bg-dark {
   background-color: #000000 !important; }
