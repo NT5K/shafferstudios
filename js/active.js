@@ -13,7 +13,7 @@
     // :: 2.0 Newsticker Active Code
     $.simpleTicker($("#breakingNewsTicker"), {
         speed: 1250,
-        delay: 3500,
+        delay: 9000,
         easing: 'swing',
         effectType: 'roll'
     });
@@ -41,11 +41,11 @@
             items: 1,
             margin: 0,
             loop: true,
-            // nav: true,
-            // navText: ['Prev', 'Next'],
+            nav: true,
+            navText: ['prev', 'next'],
             dots: true,
             autoplay: true,
-            autoplayTimeout: 12000,
+            autoplayTimeout: 25000,
             smartSpeed: 1000
         });
 
