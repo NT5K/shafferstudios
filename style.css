@@ -642,10 +642,10 @@ textarea:focus {
     display: -ms-flexbox;
     display: flex;
     position: absolute;
-    bottom: 50px;
+    bottom: 10px;
     z-index: 10;
     width: 80%;
-    left: 17%; }
+    left: 4%; }
     .hero-slides .owl-dots .owl-dot {
       font-size: 16px;
       font-weight: 600;
