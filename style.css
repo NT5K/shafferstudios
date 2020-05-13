@@ -576,10 +576,13 @@ textarea:focus {
       /* margin-left: 100px; */
       width: 700px;
       /* border-left: 3px solid #4F1847; */
-      background-color: rgba(24, 24, 24, 0.54); }
-      @media only screen and (min-width: 769px) {
+      background-color: rgba(24, 24, 24, 0.7); }
+
+        /* margin for hero black box */
+      /* @media only screen and (min-width: 769px) {
         .hero-slides .single-hero-slide .hero-slides-content {
-          margin-left: 100px; } }
+          margin-left: 100px; } } */
+
       @media only screen and (max-width: 767px) {
         .hero-slides .single-hero-slide .hero-slides-content {
           padding: 30px 20px;
