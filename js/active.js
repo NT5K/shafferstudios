@@ -45,7 +45,7 @@
             navText: ['Prev', 'Next'],
             dots: true,
             autoplay: true,
-            autoplayTimeout: 25000,
+            autoplayTimeout: 22000,
             smartSpeed: 1000
         });
 
