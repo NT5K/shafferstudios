@@ -557,7 +557,7 @@ textarea:focus {
   z-index: 1; }
   .hero-slides .single-hero-slide {
     width: 100%;
-    height: 820px;
+    height: 700px;
     position: relative;
     z-index: 1; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -573,10 +573,13 @@ textarea:focus {
       position: relative;
       z-index: 1;
       padding: 60px 50px;
-      margin-left: 100px;
+      /* margin-left: 100px; */
       width: 700px;
       /* border-left: 3px solid #4F1847; */
       background-color: rgba(24, 24, 24, 0.54); }
+      @media only screen and (min-width: 769px) {
+        .hero-slides .single-hero-slide .hero-slides-content {
+          margin-left: 100px; } }
       @media only screen and (max-width: 767px) {
         .hero-slides .single-hero-slide .hero-slides-content {
           padding: 30px 20px;
@@ -608,7 +611,7 @@ textarea:focus {
     height: 40px;
     line-height: 40px;
     color: #ffffff;
-    top: 50%;
+    top: 90%;
     margin-top: -20px;
     left: 4%;
     position: absolute;
