@@ -23,15 +23,23 @@
 .purple-border {
   border-style: solid;
   border-width: 8px;
-  border-color: #4F1847;
-}
+  border-color: #4F1847; }
+
+@media only screen and (max-width: 400px) {
+  .purple-border {
+    border-width: 6px;} }
 
 .logo-font {
   /* font-family: 'Lobster', cursive; */
   /* font-family: 'Amatic SC', cursive; */
   font-family: 'Abril Fatface', cursive;
   letter-spacing: 2px;
+  font-size: 36px;
 }
+
+@media only screen and (max-width: 400px) {
+  .logo-font  {
+    font-size: 30px; } }
 
 * {
   margin: 0;
@@ -345,8 +353,8 @@ textarea:focus {
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
-    background-color: #4F1847;
-    border-color: #4F1847; }
+    background-color: #D4A429;
+    border-color: #D4A429; }
   .delicious-btn.btn-2 {
     background-color: #4F1847;
     border-color: #4F1847; }
@@ -551,7 +559,16 @@ textarea:focus {
   position: relative;
   z-index: 1;
   margin-left: 4%;
-  margin-right: 4%; }
+  margin-right: 4%; 
+}
+@media only screen and (max-width: 400px) {
+  .hero-area {
+    margin-left: 0%;
+    margin-right: 0% ;
+    border-right: none;
+    border-left: none;
+    border-top: none; } 
+  }
 
 .hero-slides {
   position: relative;
@@ -593,7 +610,7 @@ textarea:focus {
         .hero-slides .single-hero-slide .hero-slides-content {
           padding: 30px 20px;
           margin-left: 0px;
-          width: 300px; } }
+          width: 350px; } }
       .hero-slides .single-hero-slide .hero-slides-content h2 {
         font-size: 30px;
         color: #ffffff;
@@ -701,7 +718,8 @@ textarea:focus {
       margin-bottom: 5px; }
       @media only screen and (max-width: 767px) {
         .single-top-catagory .top-cta-content h3 {
-          font-size: 18px; } }
+          font-size: 18px;
+          margin-left: 0px; } }
     .single-top-catagory .top-cta-content h6 {
       color: #ffffff;
       margin-bottom: 30px;
