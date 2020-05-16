@@ -17,7 +17,7 @@
 @import url(css/nice-select.min.css);
 /* 3.0 Base CSS */
 .text-light {
-    text-shadow: 2px 2px rgb(37, 37, 37);
+    text-shadow: 1px 1px rgb(37, 37, 37);
 }
 
 html {
