@@ -718,8 +718,7 @@ textarea:focus {
       margin-bottom: 5px; }
       @media only screen and (max-width: 767px) {
         .single-top-catagory .top-cta-content h3 {
-          font-size: 18px;
-          margin-left: 0px; } }
+          font-size: 18px; } }
     .single-top-catagory .top-cta-content h6 {
       color: #ffffff;
       margin-bottom: 30px;
