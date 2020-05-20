@@ -16,8 +16,15 @@
 @import url(css/classy-nav.min.css);
 @import url(css/nice-select.min.css);
 /* 3.0 Base CSS */
-.text-light {
-    text-shadow: 1px 1px rgb(37, 37, 37);
+
+.iconz {
+  font-size:24px;
+}
+
+@media only screen and (max-width: 400px) {
+  .iconz {
+    font-size:14px;
+  }
 }
 
 html {
@@ -29,7 +36,7 @@ html {
   border-width: 8px;
   border-color: #4F1847; }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .purple-border {
     border-width: 6px;} }
 
@@ -41,9 +48,14 @@ html {
   font-size: 36px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .logo-font  {
-    font-size: 30px; } }
+    font-size: 30px;
+    letter-spacing: 2px; } }
+
+@media only screen and (max-width: 500px) {
+  .card-margin-mobile  {
+    margin-bottom: 20px; } }
 
 * {
   margin: 0;
@@ -359,6 +371,12 @@ textarea:focus {
     color: #ffffff;
     background-color: #D4A429;
     border-color: #D4A429; }
+  .delicious-btn:focus {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #4F1847;
+    border-color: #4F1847; }
   .delicious-btn.btn-2 {
     background-color: #4F1847;
     border-color: #4F1847; }
