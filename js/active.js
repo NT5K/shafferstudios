@@ -1,3 +1,26 @@
+
+$(function () {
+    var requiredCheckboxes = $('#service-type :checkbox[required]');
+    requiredCheckboxes.change(function () {
+        if (requiredCheckboxes.is(':checked')) {
+            requiredCheckboxes.removeAttr('required');
+        } else {
+            requiredCheckboxes.attr('required', 'required');
+        }
+    });
+});
+
+$(function () {
+    var requiredCheckboxes = $('#lesson-type :checkbox[required]');
+    requiredCheckboxes.change(function () {
+        if (requiredCheckboxes.is(':checked')) {
+            requiredCheckboxes.removeAttr('required');
+        } else {
+            requiredCheckboxes.attr('required', 'required');
+        }
+    });
+});
+
 (function ($) {
     'use strict';
 

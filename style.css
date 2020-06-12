@@ -20,6 +20,9 @@
 .iconz {
   font-size:24px;
 }
+.iconz2 {
+  font-size:28px;
+}
 
 @media only screen and (max-width: 400px) {
   .iconz {
@@ -50,7 +53,7 @@ html {
 
 @media only screen and (max-width: 500px) {
   .logo-font  {
-    font-size: 30px;
+    font-size: 28px;
     letter-spacing: 2px; } }
 
 @media only screen and (max-width: 500px) {
